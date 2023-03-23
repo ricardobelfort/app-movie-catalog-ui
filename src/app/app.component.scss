@@ -1,0 +1,197 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: url(../assets/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+
+  .navbar {
+    width: 80px;
+    height: 100%;
+    padding-top: 1.9rem;
+    background-color: rgba(36, 20, 46, 0.99);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    .logo {
+      width: 50px;
+      margin-bottom: 3rem;
+    }
+
+    ul {
+      width: 100%;
+
+      list-style: none;
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+
+        a {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 1rem;
+          font-size: 0.6rem;
+          color: var(--primary);
+          text-decoration: none;
+          transition: 0.2s all;
+          -moz-transition: 0.2s all;
+          -webkit-transition: 0.2s all;
+
+          i.fa-solid {
+            font-size: 1.4rem;
+            padding-bottom: 5px;
+          }
+
+          &:hover {
+            background-color: var(--primary);
+            color: var(--white);
+          }
+        }
+      }
+    }
+  }
+
+  .content {
+    flex: 1;
+    background-color: rgba(3, 5, 46, 0.9);
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .movies {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2rem;
+      gap: 2rem;
+
+      h1 {
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--white);
+        margin-bottom: 1rem;
+      }
+
+      .movie-card {
+        border-radius: 8px;
+        width: 220px;
+        outline: 1px solid rgba(255, 255, 255, 0.05);
+        transition: 0.2s all;
+        -moz-transition: 0.2s all;
+        -webkit-transition: 0.2s all;
+        box-shadow: 0 10px 26px rgba(0, 0, 0, 0.03);
+        -moz-box-shadow: 0 10px 26px rgba(0, 0, 0, 0.03);
+        -webkit-box-shadow: 0 10px 26px rgba(0, 0, 0, 0.03);
+
+        .card-header {
+          height: 330px;
+
+          img {
+            border-radius: 8px 8px 0 0;
+          }
+        }
+
+        .card-body {
+          height: 114px;
+          padding: 1.4rem 1rem 2rem 1rem;
+          background-color: var(--white);
+          border-radius: 0 0 8px 8px;
+          position: relative;
+
+          .score {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 5px;
+            background-color: var(--dark);
+            border: 3px solid var(--primary);
+            outline: 3px solid var(--white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--white);
+            position: absolute;
+            top: -16px;
+            left: 10px;
+
+            sup {
+              font-size: 0.4rem;
+            }
+          }
+
+          h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            overflow-wrap: break-word;
+
+            a {
+              color: var(--dark);
+              text-decoration: none;
+
+              &:hover {
+                color: var(--primary);
+              }
+            }
+          }
+
+          time {
+            font-size: 0.875rem;
+            color: var(--body);
+          }
+        }
+
+        &:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.125);
+          -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.125);
+          -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.125);
+        }
+      }
+    }
+
+    footer {
+      width: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      ul {
+        list-style: none;
+
+        li {
+          display: inline;
+          margin-right: 1rem;
+
+          a {
+            font-size: 0.75rem;
+            font-weight: 300;
+            color: var(--white);
+            text-decoration: none;
+
+            &:hover {
+              color: var(--primary);
+            }
+          }
+        }
+      }
+
+      a {
+        img {
+          width: 120px;
+        }
+      }
+    }
+  }
+}
