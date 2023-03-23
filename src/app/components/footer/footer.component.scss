@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    list-style: none;
+
+    li {
+      display: inline;
+      margin-right: 1rem;
+
+      a {
+        font-size: 0.75rem;
+        font-weight: 300;
+        color: var(--white);
+        text-decoration: none;
+
+        &:hover {
+          color: var(--primary);
+        }
+      }
+    }
+  }
+
+  a {
+    img {
+      width: 120px;
+    }
+  }
+}

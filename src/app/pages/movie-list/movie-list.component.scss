@@ -1,0 +1,101 @@
+.content {
+  height: 100%;
+  background-color: rgba(3, 5, 46, 0.9);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .movies {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+
+    h1 {
+      width: 100%;
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+
+    .movie-card {
+      border-radius: 8px;
+      width: 220px;
+      outline: 1px solid rgba(255, 255, 255, 0.05);
+      transition: 0.2s all;
+      -moz-transition: 0.2s all;
+      -webkit-transition: 0.2s all;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.03);
+      -moz-box-shadow: 0 10px 26px rgba(0, 0, 0, 0.03);
+      -webkit-box-shadow: 0 10px 26px rgba(0, 0, 0, 0.03);
+
+      .card-header {
+        height: 330px;
+
+        img {
+          border-radius: 8px 8px 0 0;
+        }
+      }
+
+      .card-body {
+        height: 114px;
+        padding: 1.4rem 1rem 2rem 1rem;
+        background-color: var(--white);
+        border-radius: 0 0 8px 8px;
+        position: relative;
+
+        .score {
+          width: 2rem;
+          height: 2rem;
+          border-radius: 5px;
+          background-color: var(--dark);
+          border: 3px solid var(--primary);
+          outline: 3px solid var(--white);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.75rem;
+          font-weight: 600;
+          color: var(--white);
+          position: absolute;
+          top: -16px;
+          left: 10px;
+
+          sup {
+            font-size: 0.4rem;
+          }
+        }
+
+        h2 {
+          font-size: 1rem;
+          font-weight: 600;
+          overflow-wrap: break-word;
+
+          a {
+            color: var(--dark);
+            text-decoration: none;
+
+            &:hover {
+              color: var(--primary);
+            }
+          }
+        }
+
+        time {
+          font-size: 0.875rem;
+          color: var(--body);
+        }
+      }
+
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.125);
+        -moz-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.125);
+        -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.125);
+      }
+    }
+  }
+}
