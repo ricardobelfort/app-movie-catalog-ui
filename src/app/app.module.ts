@@ -9,6 +9,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 import { StarRatingModule } from 'angular-star-rating';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { AddMovieFormComponent } from './pages/add-movie-form/add-movie-form.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { StarRatingModule } from 'angular-star-rating';
     MovieListComponent,
     NavbarComponent,
     FooterComponent,
+    PageNotFoundComponent,
+    AddMovieFormComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, StarRatingModule.forRoot()],
   providers: [],
