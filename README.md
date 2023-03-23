@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
-Visit the project here [Movie Catalog](https://app-movie-catalog-19dt70bvg-ricardobelfort.vercel.app/)
+Visit the project here [Movie Catalog](https://app-movie-catalog-ui.vercel.app/)
 
 ## Code Quality
 
