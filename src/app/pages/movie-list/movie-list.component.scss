@@ -22,7 +22,6 @@
     .movie-card {
       border-radius: 8px;
       width: 220px;
-      outline: 1px solid rgba(255, 255, 255, 0.05);
       transition: 0.2s all;
       -moz-transition: 0.2s all;
       -webkit-transition: 0.2s all;
@@ -39,8 +38,7 @@
       }
 
       .card-body {
-        height: 114px;
-        padding: 1.4rem 1rem 2rem 1rem;
+        padding: 1.4rem 1rem 1rem 1rem;
         background-color: var(--white);
         border-radius: 0 0 8px 8px;
         position: relative;
@@ -85,6 +83,19 @@
         time {
           font-size: 0.875rem;
           color: var(--body);
+        }
+
+        .rating {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-top: 0.5rem;
+
+          p {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--body);
+          }
         }
       }
 
