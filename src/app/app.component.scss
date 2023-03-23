@@ -6,4 +6,10 @@
   background-size: cover;
   display: grid;
   grid-template-columns: 80px 1fr;
+
+  .content {
+    height: 100%;
+    background-color: rgba(3, 5, 46, 0.9);
+    overflow: auto;
+  }
 }
