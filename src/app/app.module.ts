@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { StarRatingModule } from 'angular-star-rating';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { AddMovieFormComponent } from './pages/add-movie-form/add-movie-form.component';
+import { MovieDetailComponent } from './pages/movie-detail/movie-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { AddMovieFormComponent } from './pages/add-movie-form/add-movie-form.com
     FooterComponent,
     PageNotFoundComponent,
     AddMovieFormComponent,
+    MovieDetailComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, StarRatingModule.forRoot()],
   providers: [],

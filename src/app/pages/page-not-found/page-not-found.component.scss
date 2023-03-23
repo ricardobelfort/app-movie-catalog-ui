@@ -3,11 +3,18 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--white);
+  justify-content: space-between;
 
-  img {
-    width: 40%;
+  .not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+
+    img {
+      width: 40%;
+      margin-top: 3rem;
+    }
   }
 }
