@@ -1,5 +1,67 @@
 <div class="container">
-  <p>add-movie-form works!</p>
+  <section class="new-movie">
+    <h1>Novo Filme</h1>
+
+    <form class="movie-form" [formGroup]="movieForm" (ngSubmit)="onSubmit()">
+      <div class="upload">
+        <img [src]="url" alt="" />
+      </div>
+      <div class="input-group">
+        <label for="author">
+          <span>Autor</span>
+          <input
+            type="text"
+            name="author"
+            id="author"
+            formControlName="author"
+            required
+          />
+        </label>
+        <label for="title">
+          <span>Título</span>
+          <input
+            type="text"
+            name="title"
+            id="title"
+            formControlName="title"
+            required
+          />
+        </label>
+        <label for="description">
+          <span>Descrição</span>
+          <textarea
+            name="description"
+            id="description"
+            formControlName="description"
+            required
+            rows="4"
+          ></textarea>
+        </label>
+        <label for="inputFile">
+          <i class="fa-regular fa-image fa-2xl"></i>
+          <input
+            id="inputFile"
+            class="custom-file-input"
+            type="file"
+            formControlName="inputFile"
+            (change)="onSelectFile($event)"
+            required
+          />
+        </label>
+
+        <div class="action">
+          <button
+            type="submit"
+            [disabled]="!movieForm.valid"
+            class="btn-primary"
+          >
+            Postar
+          </button>
+          <button class="btn-outlined" (click)="onCancel()">Cancelar</button>
+        </div>
+      </div>
+    </form>
+  </section>
 
   <app-footer></app-footer>
 </div>
