@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-add-movie-form',
@@ -8,13 +8,18 @@ import { FormGroup, FormControl } from '@angular/forms';
 })
 export class AddMovieFormComponent {
   url = '/assets/icons/img.svg';
-
-  movieForm = new FormGroup({
-    author: new FormControl(''),
-    title: new FormControl(''),
-    description: new FormControl(''),
-    inputFile: new FormControl(''),
+  movieForm = this.fb.group({
+    author: ['', Validators.required, Validators.minLength(4)],
+    title: ['', Validators.required, Validators.minLength(4)],
+    description: ['', Validators.required, Validators.minLength(4)],
+    inputFile: ['', Validators.required],
   });
+
+  constructor(private fb: FormBuilder) {}
+
+  get author() {
+    return this.movieForm.get('author');
+  }
 
   onSelectFile(e: any) {
     if (e.target.files && e.target.files[0]) {
