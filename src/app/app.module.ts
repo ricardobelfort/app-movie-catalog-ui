@@ -13,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { AddMovieFormComponent } from './pages/add-movie-form/add-movie-form.component';
 import { MovieDetailComponent } from './pages/movie-detail/movie-detail.component';
+import { LoadingComponent } from './components/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { MovieDetailComponent } from './pages/movie-detail/movie-detail.componen
     PageNotFoundComponent,
     AddMovieFormComponent,
     MovieDetailComponent,
+    LoadingComponent,
   ],
   imports: [
     BrowserModule,

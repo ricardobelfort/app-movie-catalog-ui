@@ -14,9 +14,7 @@
       </div>
       <div class="card-body">
         <div class="score">
-          <strong
-            >{{ movie.vote_average | number : "1.1-1" }}<sup>%</sup></strong
-          >
+          <strong>{{ movie.vote_average | number : "1.1-1" }}</strong>
         </div>
         <h2>
           <a routerLink="/movie/{{ movie.id }}">{{ movie.title }}</a>
