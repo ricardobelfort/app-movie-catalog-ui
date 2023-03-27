@@ -1,0 +1,405 @@
+{
+	"dates": {
+		"maximum": "2023-03-25",
+		"minimum": "2023-02-05"
+	},
+	"page": 1,
+	"results": [
+		{
+			"adult": false,
+			"backdrop_path": "/a2tys4sD7xzVaogPntGsT1ypVoT.jpg",
+			"genre_ids": [
+				53,
+				35,
+				27,
+				80
+			],
+			"id": 804150,
+			"original_language": "en",
+			"original_title": "Cocaine Bear",
+			"overview": "Um grupo excêntrico de policiais, criminosos, turistas e adolescentes se convergem numa floresta da Geórgia, onde um urso negro de 200kg ingeriu uma quantidade impressionante de cocaína e partiu para uma fúria movida a coca por mais golpe... e sangue.",
+			"popularity": 4435.857,
+			"poster_path": "/kCULfWcKxjzYD2NweXkBdEzeLFC.jpg",
+			"release_date": "2023-02-22",
+			"title": "O Urso do Pó Branco",
+			"video": false,
+			"vote_average": 6.6,
+			"vote_count": 492
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/i8dshLvq4LE3s0v8PrkDdUyb1ae.jpg",
+			"genre_ids": [
+				28,
+				53,
+				80
+			],
+			"id": 603692,
+			"original_language": "en",
+			"original_title": "John Wick: Chapter 4",
+			"overview": "Com o preço por sua cabeça cada vez maior, John Wick leva sua luta contra a alta mesa global enquanto procura os jogadores mais poderosos do submundo, de Nova York a Paris, de Osaka a Berlim.",
+			"popularity": 3734.86,
+			"poster_path": "/97NPC9AI2FptBfJlMRN9psnvT13.jpg",
+			"release_date": "2023-03-22",
+			"title": "John Wick 4: Baba Yaga",
+			"video": false,
+			"vote_average": 8.2,
+			"vote_count": 307
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/wD2kUCX1Bb6oeIb2uz7kbdfLP6k.jpg",
+			"genre_ids": [
+				27,
+				53
+			],
+			"id": 980078,
+			"original_language": "en",
+			"original_title": "Winnie the Pooh: Blood and Honey",
+			"overview": "Depois de serem abandonados por Christopher Robin, que estava na faculdade, Pooh e Leitão ficam furiosos.",
+			"popularity": 2912.564,
+			"poster_path": "/zCdzPK6fJgQL0FeKeYkciZzjyOL.jpg",
+			"release_date": "2023-01-27",
+			"title": "Ursinho Pooh: Sangue e Mel",
+			"video": false,
+			"vote_average": 5.9,
+			"vote_count": 189
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/ouB7hwclG7QI3INoYJHaZL4vOaa.jpg",
+			"genre_ids": [
+				16,
+				12,
+				35,
+				10751
+			],
+			"id": 315162,
+			"original_language": "en",
+			"original_title": "Puss in Boots: The Last Wish",
+			"overview": "O Gato de Botas descobre que sua paixão pela aventura cobrou seu preço: ele queimou oito de suas nove vidas, deixando-o com apenas uma vida restante. Gato parte em uma jornada épica para encontrar o mítico Último Desejo e restaurar suas nove vidas.",
+			"popularity": 2473.436,
+			"poster_path": "/atJxZfCaQ7kXRFSfbm8cqAKkns7.jpg",
+			"release_date": "2022-12-07",
+			"title": "Gato de Botas 2: O Último Pedido",
+			"video": false,
+			"vote_average": 8.3,
+			"vote_count": 4834
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/zM9RGbJBZ3UNpFOabcRqh0iVAYP.jpg",
+			"genre_ids": [
+				27,
+				9648,
+				53
+			],
+			"id": 631842,
+			"original_language": "en",
+			"original_title": "Knock at the Cabin",
+			"overview": "Durante as férias em uma cabana remota, uma jovem e seus pais são feitos reféns por quatro estranhos armados que exigem que a família faça uma escolha impensável para evitar o apocalipse. Com acesso limitado ao mundo exterior, a família deve decidir no que acredita antes que tudo esteja perdido.",
+			"popularity": 1850.666,
+			"poster_path": "/94Gfu9vxUAVeL8EHc9toT9nGLkv.jpg",
+			"release_date": "2023-02-01",
+			"title": "Batem à Porta",
+			"video": false,
+			"vote_average": 6.4,
+			"vote_count": 1114
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/xDMIl84Qo5Tsu62c9DGWhmPI67A.jpg",
+			"genre_ids": [
+				28,
+				12,
+				878
+			],
+			"id": 505642,
+			"original_language": "en",
+			"original_title": "Black Panther: Wakanda Forever",
+			"overview": "A rainha Ramonda, Shuri, M'Baku, Okoye e as poderosas Dora Milaje lutam para proteger sua nação após a morte do rei T'Challa. Com a ajuda da Cão de Guerra Nakia e de Everett Ross, eles tentam encontrar um novo caminho para Wakanda.",
+			"popularity": 1770.433,
+			"poster_path": "/nZ69WTv7n01womaNz3SHa4inA9x.jpg",
+			"release_date": "2022-11-09",
+			"title": "Pantera Negra: Wakanda para Sempre",
+			"video": false,
+			"vote_average": 7.3,
+			"vote_count": 4289
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/9Rq14Eyrf7Tu1xk0Pl7VcNbNh1n.jpg",
+			"genre_ids": [
+				28,
+				12,
+				53
+			],
+			"id": 646389,
+			"original_language": "en",
+			"original_title": "Plane",
+			"overview": "O piloto Brodie Torrance salva seus passageiros de um raio pousando em uma ilha. Os moradores rebeldes e perigosos do local fazem a tripulação refém e Torrance procura ajuda de um passageiro acusado de assassinato.",
+			"popularity": 1444.356,
+			"poster_path": "/zr50kb04fTFcGfZTKFzbKTmQSiZ.jpg",
+			"release_date": "2023-01-12",
+			"title": "Alerta Máximo",
+			"video": false,
+			"vote_average": 6.9,
+			"vote_count": 958
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/wybmSmviUXxlBmX44gtpow5Y9TB.jpg",
+			"genre_ids": [
+				28,
+				35,
+				14
+			],
+			"id": 594767,
+			"original_language": "en",
+			"original_title": "Shazam! Fury of the Gods",
+			"overview": "Continua a história do adolescente Billy Batson que, ao recitar a palavra mágica “SHAZAM!”, é transformado em seu alto ego adulto de super-herói, Shazam.",
+			"popularity": 1194.931,
+			"poster_path": "/5WCM2gGB0mGunbssHX7okAoEeUv.jpg",
+			"release_date": "2023-03-15",
+			"title": "Shazam! Fúria dos Deuses",
+			"video": false,
+			"vote_average": 7,
+			"vote_count": 244
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/sRfX2XPjyL7nRKVRKXVG6D0bVQI.jpg",
+			"genre_ids": [
+				27,
+				53
+			],
+			"id": 884184,
+			"original_language": "en",
+			"original_title": "Consecration",
+			"overview": "Após o suposto suicídio de seu irmão padre, Grace viaja para o remoto convento escocês onde ele morreu. Desconfiando do relato da Igreja, ela descobre assassinato, sacrilégio e uma verdade perturbadora sobre si mesma.",
+			"popularity": 1151.298,
+			"poster_path": "/txP5HTHAlwLV1ZieGKviCsnWhXS.jpg",
+			"release_date": "2023-02-09",
+			"title": "O Convento",
+			"video": false,
+			"vote_average": 6.9,
+			"vote_count": 21
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/5i6SjyDbDWqyun8klUuCxrlFbyw.jpg",
+			"genre_ids": [
+				18
+			],
+			"id": 677179,
+			"original_language": "en",
+			"original_title": "Creed III",
+			"overview": "Depois de dominar o mundo do boxe, Adonis Creed tem prosperado em sua carreira e vida familiar. Quando um amigo de infância e ex-prodígio do boxe, Damien Anderson, ressurge depois de cumprir uma longa sentença na prisão, ele está ansioso para provar que merece sua chance no ringue. O confronto entre ex-amigos é mais do que apenas uma briga. Para acertar as contas, Adonis deve colocar seu futuro em risco para lutar contra Damien - um lutador que não tem nada a perder.",
+			"popularity": 1148.95,
+			"poster_path": "/fa23RPI5UmXqCUICdEFS8uFjUda.jpg",
+			"release_date": "2023-03-01",
+			"title": "Creed III",
+			"video": false,
+			"vote_average": 7.1,
+			"vote_count": 427
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/pxJbfnMIQQxCrdeLD0zQnWr6ouL.jpg",
+			"genre_ids": [
+				28,
+				35,
+				53
+			],
+			"id": 1077280,
+			"original_language": "en",
+			"original_title": "Die Hart",
+			"overview": "Kevin Hart, fazendo uma versão de si mesmo, vai encarar o desafio da sua vida para se tornar um herói de ação. E só com a ajuda de John Travolta, Nathalie Emmanuel e Josh Hartnett que ele poderá alcançar o sucesso.",
+			"popularity": 1181.299,
+			"poster_path": "/hcuZ68ymJgohTerR8Oo1mb76SJv.jpg",
+			"release_date": "2023-02-22",
+			"title": "Duro de Atuar",
+			"video": false,
+			"vote_average": 6.2,
+			"vote_count": 215
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/2E6pIbJien7B9yWpaz8Yd2njzUI.jpg",
+			"genre_ids": [
+				18,
+				27
+			],
+			"id": 1026563,
+			"original_language": "es",
+			"original_title": "13 exorcismos",
+			"overview": "Depois de invocar espíritos com um grupo de amigos, Laura Villegas começa a se comportar de forma estranha. Presenças sombrias, visões aterrorizantes, vozes sinistras, marcas dolorosas em sua pele e outros fenômenos paranormais começam a assombrá-la por onde quer que ela vá. Sua família aceita chamar um exorcista sancionado pelo Vaticano para intervir no caso de possessão demoníaca. Para salvar Laura e libertá-la, o padre terá que realizar uma série de exorcismos, cada um mais aterrorizante que o outro.",
+			"popularity": 1230.969,
+			"poster_path": "/8LpnMIqpRiwxpbGR33ALCmVl7gj.jpg",
+			"release_date": "2022-11-04",
+			"title": "13 exorcismos",
+			"video": false,
+			"vote_average": 5.9,
+			"vote_count": 31
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/dlrWhn0G3AtxYUx2D9P2bmzcsvF.jpg",
+			"genre_ids": [
+				878,
+				27,
+				35
+			],
+			"id": 536554,
+			"original_language": "en",
+			"original_title": "M3GAN",
+			"overview": "Uma brilhante roboticista de uma empresa de brinquedos usa inteligência artificial para desenvolver M3GAN, uma boneca realista programada para se relacionar emocionalmente com sua sobrinha recém-órfã. Mas quando a programação da boneca funciona muito bem, ela se torna superprotetora de sua nova amiga... com resultados aterrorizantes.",
+			"popularity": 1086.691,
+			"poster_path": "/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg",
+			"release_date": "2022-12-28",
+			"title": "M3GAN",
+			"video": false,
+			"vote_average": 7.4,
+			"vote_count": 2195
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/v2LilmCylr3bL9TCZSj6syjowZh.jpg",
+			"genre_ids": [
+				35,
+				18
+			],
+			"id": 937278,
+			"original_language": "en",
+			"original_title": "A Man Called Otto",
+			"overview": "A história de Otto Anderson, um viúvo mal-humorado que está muito preso aos seus hábitos. Quando uma jovem família animada se muda ao lado, ele conhece sua igual em Marisol, esperta e grávida, o que leva a uma amizade improvável que vai deixar o mundo de Otto de cabeça para baixo.",
+			"popularity": 813.195,
+			"poster_path": "/oXHNdN1hjg6RFQ5NP618KSAIrdE.jpg",
+			"release_date": "2022-12-28",
+			"title": "O Pior Vizinho do Mundo",
+			"video": false,
+			"vote_average": 7.9,
+			"vote_count": 872
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/gslT8t964rYXyqRcqrxFh77ikyb.jpg",
+			"genre_ids": [
+				12,
+				878,
+				35
+			],
+			"id": 640146,
+			"original_language": "en",
+			"original_title": "Ant-Man and the Wasp: Quantumania",
+			"overview": "Scott Lang e Hope van Dyne em suas jornadas como super-heróis. Scott e sua família são puxados para o Reino Quântico, onde eles precisarão enfrentar um novo e terrível vilão: Kang, o Conquistador e M.O.D.O.K..",
+			"popularity": 891.102,
+			"poster_path": "/3aJNiESDK7quCw9IpsUCFXqvq24.jpg",
+			"release_date": "2023-02-15",
+			"title": "Homem-Formiga e a Vespa: Quantumania",
+			"video": false,
+			"vote_average": 6.4,
+			"vote_count": 1093
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/zGoZB4CboMzY1z4G3nU6BWnMDB2.jpg",
+			"genre_ids": [
+				28,
+				35,
+				10749
+			],
+			"id": 758009,
+			"original_language": "en",
+			"original_title": "Shotgun Wedding",
+			"overview": "Durante a cerimônia de casamento, Darcy e Tom estão reunidos com seus familiares para celebrar o grande momento, quando são surpreendidos por sequestradores. Agora, os noivos têm a missão de salvar as suas famílias do perigo, trazendo a lembrança de quando se apaixonaram um pelo outro.",
+			"popularity": 817.184,
+			"poster_path": "/i3OgPuen3vi7UkAQCMZou2NkPUm.jpg",
+			"release_date": "2022-12-28",
+			"title": "Casamento Armado",
+			"video": false,
+			"vote_average": 6.3,
+			"vote_count": 691
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/r7Dfg9aRZ78gJsmDlCirIIlNH3d.jpg",
+			"genre_ids": [
+				18
+			],
+			"id": 785084,
+			"original_language": "en",
+			"original_title": "The Whale",
+			"overview": "Um professor de inglês recluso que sofre de obesidade severa tenta se reconectar com sua filha adolescente distante para uma última chance de redenção.",
+			"popularity": 823.834,
+			"poster_path": "/4hhd8JuwsHTvpqW9wW9oebsHVu0.jpg",
+			"release_date": "2022-12-09",
+			"title": "A Baleia",
+			"video": false,
+			"vote_average": 8,
+			"vote_count": 1647
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/44immBwzhDVyjn87b3x3l9mlhAD.jpg",
+			"genre_ids": [
+				27,
+				9648,
+				53
+			],
+			"id": 934433,
+			"original_language": "en",
+			"original_title": "Scream VI",
+			"overview": "Sam, Tara, Chad e Mindy, os quatro sobreviventes do massacre realizado pelo Ghostface, decidem deixar Woodsboro para trás em busca de um novo começo em uma cidade diferente. Mas não demora muito para eles se tornarem alvo de um novo serial killer mascarado.",
+			"popularity": 657.83,
+			"poster_path": "/dbd7DQCHZ57SF4tM2puHtwNxDQD.jpg",
+			"release_date": "2023-03-08",
+			"title": "Pânico VI",
+			"video": false,
+			"vote_average": 7.3,
+			"vote_count": 407
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/xjixln7CCUOgAJNX8RrGxYRwLvI.jpg",
+			"genre_ids": [
+				18,
+				53,
+				80
+			],
+			"id": 948050,
+			"original_language": "fr",
+			"original_title": "Le Roi des Ombres",
+			"overview": "Após a morte do pai, dois meios-irmãos se veem em lados opostos de um conflito com consequências trágicas.",
+			"popularity": 638.303,
+			"poster_path": "/o0UxfLtPJ7rN1lKyBMFwbw5ngNU.jpg",
+			"release_date": "2023-03-17",
+			"title": "O Rei das Sombras",
+			"video": false,
+			"vote_average": 6.2,
+			"vote_count": 42
+		},
+		{
+			"adult": false,
+			"backdrop_path": "/A2avUoNFstnBhAnHiogXQs4c9Bt.jpg",
+			"genre_ids": [
+				18,
+				27,
+				9648
+			],
+			"id": 772515,
+			"original_language": "es",
+			"original_title": "Huesera",
+			"overview": "Valéria há muito sonha em ser mãe. Após saber que está grávida, ela espera se sentir feliz, mas algo está errado.",
+			"popularity": 651.159,
+			"poster_path": "/7NhG3NClQ1xrc3kEwTiwFht5Y3L.jpg",
+			"release_date": "2023-02-10",
+			"title": "Huesera",
+			"video": false,
+			"vote_average": 5.8,
+			"vote_count": 159
+		}
+	],
+	"total_pages": 82,
+	"total_results": 1636
+}

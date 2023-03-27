@@ -2,12 +2,12 @@
   <section class="movies">
     <h1>Filmes em Cartaz</h1>
 
-    <div class="movie-card">
+    <div class="movie-card" *ngFor="let movie of movies | async">
       <div class="card-header">
         <a routerLink="/movie">
           <img
             loading="lazy"
-            src="https://www.themoviedb.org/t/p/w220_and_h330_face/kCULfWcKxjzYD2NweXkBdEzeLFC.jpg"
+            [src]="posterPath + movie.poster_path"
             alt="O Urso do Pó Branco"
           />
         </a>
@@ -17,9 +17,9 @@
           <strong>65<sup>%</sup></strong>
         </div>
         <h2>
-          <a href="#">O Urso do Pó Branco</a>
+          <a href="#">{{ movie.title }}</a>
         </h2>
-        <time>22 de fev de 2023</time>
+        <time>{{ movie.release_date }}</time>
         <div class="rating">
           <p>Avaliação</p>
           <star-rating
@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <div class="movie-card">
+    <!-- <div class="movie-card">
       <div class="card-header">
         <a href="">
           <img
@@ -145,7 +145,7 @@
           ></star-rating>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <app-footer></app-footer>

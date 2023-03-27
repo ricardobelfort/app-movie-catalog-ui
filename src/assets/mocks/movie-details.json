@@ -1,0 +1,78 @@
+{
+	"adult": false,
+	"backdrop_path": "/a2tys4sD7xzVaogPntGsT1ypVoT.jpg",
+	"belongs_to_collection": null,
+	"budget": 35000000,
+	"genres": [
+		{
+			"id": 53,
+			"name": "Thriller"
+		},
+		{
+			"id": 35,
+			"name": "Comédia"
+		},
+		{
+			"id": 27,
+			"name": "Terror"
+		},
+		{
+			"id": 80,
+			"name": "Crime"
+		}
+	],
+	"homepage": "",
+	"id": 804150,
+	"imdb_id": "tt14209916",
+	"original_language": "en",
+	"original_title": "Cocaine Bear",
+	"overview": "Um grupo excêntrico de policiais, criminosos, turistas e adolescentes se convergem numa floresta da Geórgia, onde um urso negro de 200kg ingeriu uma quantidade impressionante de cocaína e partiu para uma fúria movida a coca por mais golpe... e sangue.",
+	"popularity": 4435.857,
+	"poster_path": "/kCULfWcKxjzYD2NweXkBdEzeLFC.jpg",
+	"production_companies": [
+		{
+			"id": 33,
+			"logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+			"name": "Universal Pictures",
+			"origin_country": "US"
+		},
+		{
+			"id": 12365,
+			"logo_path": null,
+			"name": "Brownstone Productions",
+			"origin_country": "US"
+		},
+		{
+			"id": 77973,
+			"logo_path": null,
+			"name": "Lord Miller Productions",
+			"origin_country": "US"
+		}
+	],
+	"production_countries": [
+		{
+			"iso_3166_1": "IE",
+			"name": "Ireland"
+		},
+		{
+			"iso_3166_1": "US",
+			"name": "United States of America"
+		}
+	],
+	"release_date": "2023-02-22",
+	"revenue": 80000000,
+	"runtime": 95,
+	"spoken_languages": [
+		{
+			"english_name": "English",
+			"iso_639_1": "en",
+			"name": "English"
+		}
+	],
+	"status": "Released",
+	"tagline": "",
+	"title": "O Urso do Pó Branco",
+	"video": false,
+	"vote_average": 6.549,
+	"vote_count": 499
+}
