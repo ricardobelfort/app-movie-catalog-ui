@@ -4,4 +4,102 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  .movie-detail {
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+    padding: 2rem;
+    background: rgba($color: #000, $alpha: 0.5);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 300px 1fr;
+    column-gap: 2rem;
+
+    .cover {
+      img {
+        border-radius: 8px;
+      }
+    }
+
+    .details {
+      color: var(--white);
+
+      .title {
+        font-size: 3rem;
+        font-weight: 600;
+      }
+
+      .tag-author {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .desc-title {
+        font-size: 1.6rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .tag-desc {
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-bottom: 3rem;
+      }
+
+      .evaluation {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3rem;
+
+        .score {
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 50%;
+          background-color: var(--dark);
+          border: 3px solid var(--primary);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.75rem;
+          font-weight: 600;
+          color: var(--white);
+          margin-right: 1rem;
+
+          sup {
+            font-size: 0.4rem;
+          }
+        }
+
+        .rating {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-top: 0.5rem;
+
+          p {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--white);
+          }
+        }
+      }
+
+      .btn-primary {
+        padding: 1rem 1.5rem;
+        margin-right: 1rem;
+        border-radius: 8px;
+        border: 0;
+        background: var(--primary);
+        color: var(--white);
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.1s all;
+        text-decoration: none;
+
+        &:hover {
+          background: var(--primaryHover);
+        }
+      }
+    }
+  }
 }

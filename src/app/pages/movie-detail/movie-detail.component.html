@@ -1,5 +1,39 @@
 <div class="container">
-  <p>movie-detail works!</p>
+  <section class="movie-detail">
+    <div class="cover">
+      <img
+        src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/97NPC9AI2FptBfJlMRN9psnvT13.jpg"
+        alt=""
+      />
+    </div>
+    <div class="details">
+      <h1 class="title">John Wick 4: Baba Yaga</h1>
+      <p class="tag-author"><strong>Autor:</strong> Michael Finch</p>
+
+      <div class="evaluation">
+        <div class="score">
+          <strong>65<sup>%</sup></strong>
+        </div>
+        <div class="rating">
+          <p>Avaliação</p>
+          <star-rating
+            [starType]="'svg'"
+            [rating]="3"
+            style="margin-left: -5px"
+          ></star-rating>
+        </div>
+      </div>
+
+      <h2 class="desc-title">Descrição</h2>
+      <p class="tag-desc">
+        Com o preço por sua cabeça cada vez maior, John Wick leva sua luta
+        contra a alta mesa global enquanto procura os jogadores mais poderosos
+        do submundo, de Nova York a Paris, de Osaka a Berlim.
+      </p>
+
+      <a routerLink="/home" class="btn-primary">Voltar</a>
+    </div>
+  </section>
 
   <app-footer></app-footer>
 </div>
