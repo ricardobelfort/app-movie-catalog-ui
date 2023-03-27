@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { StarRatingModule } from 'angular-star-rating';
 
 import { AppComponent } from './app.component';
 import { MovieListComponent } from './pages/movie-list/movie-list.component';
