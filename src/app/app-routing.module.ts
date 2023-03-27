@@ -1,3 +1,4 @@
+import { MovieResolver } from './guards/movie.resolver';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MovieListComponent } from './pages/movie-list/movie-list.component';
@@ -16,12 +17,14 @@ const routes: Routes = [
     component: MovieListComponent,
   },
   {
-    path: 'adicionar',
+    path: 'novo',
     component: AddMovieFormComponent,
+    resolve: { movie: MovieResolver }
   },
   {
-    path: 'movie',
+    path: 'movie/:id',
     component: MovieDetailComponent,
+    resolve: { movie: MovieResolver }
   },
   { path: '**', component: PageNotFoundComponent },
 ];

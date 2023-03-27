@@ -18,6 +18,7 @@
 
     .cover {
       img {
+        width: 300px;
         border-radius: 8px;
       }
     }
@@ -28,11 +29,25 @@
       .title {
         font-size: 3rem;
         font-weight: 600;
+        margin-bottom: 0.5rem;
+
+        .year {
+          font-weight: 300;
+          color: var(--body);
+        }
       }
 
-      .tag-author {
-        font-size: 1rem;
-        margin-bottom: 2rem;
+      .info {
+        display: flex;
+        gap: 2rem;
+
+        .release-date,
+        .tag-genre,
+        .imdb {
+          font-size: 1.4rem;
+          margin-bottom: 4rem;
+          color: var(--body);
+        }
       }
 
       .desc-title {
@@ -44,44 +59,6 @@
         font-size: 1.2rem;
         font-weight: 300;
         margin-bottom: 3rem;
-      }
-
-      .evaluation {
-        display: flex;
-        align-items: center;
-        margin-bottom: 3rem;
-
-        .score {
-          width: 2.5rem;
-          height: 2.5rem;
-          border-radius: 50%;
-          background-color: var(--dark);
-          border: 3px solid var(--primary);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 0.75rem;
-          font-weight: 600;
-          color: var(--white);
-          margin-right: 1rem;
-
-          sup {
-            font-size: 0.4rem;
-          }
-        }
-
-        .rating {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          margin-top: 0.5rem;
-
-          p {
-            font-size: 0.7rem;
-            font-weight: 600;
-            color: var(--white);
-          }
-        }
       }
 
       .btn-primary {

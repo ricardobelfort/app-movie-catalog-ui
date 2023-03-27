@@ -4,7 +4,7 @@
 
     <div class="movie-card" *ngFor="let movie of movies | async">
       <div class="card-header">
-        <a routerLink="/movie">
+        <a routerLink="/movie/{{ movie.id }}">
           <img
             loading="lazy"
             [src]="posterPath + movie.poster_path"
@@ -14,20 +14,14 @@
       </div>
       <div class="card-body">
         <div class="score">
-          <strong>65<sup>%</sup></strong>
+          <strong
+            >{{ movie.vote_average | number : "1.1-1" }}<sup>%</sup></strong
+          >
         </div>
         <h2>
-          <a href="#">{{ movie.title }}</a>
+          <a routerLink="/movie/{{ movie.id }}">{{ movie.title }}</a>
         </h2>
         <time>{{ movie.release_date }}</time>
-        <div class="rating">
-          <p>Avaliação</p>
-          <star-rating
-            [starType]="'svg'"
-            [rating]="3"
-            style="margin-left: -5px"
-          ></star-rating>
-        </div>
       </div>
     </div>
   </section>

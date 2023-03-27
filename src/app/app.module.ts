@@ -30,7 +30,6 @@ import { MovieDetailComponent } from './pages/movie-detail/movie-detail.componen
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    StarRatingModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],
