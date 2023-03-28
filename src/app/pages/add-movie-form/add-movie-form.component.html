@@ -4,21 +4,11 @@
 
     <form class="movie-form" [formGroup]="movieForm" (ngSubmit)="onSubmit()">
       <div class="upload">
-        <img [src]="url" alt="" />
+        <img [src]="url" />
       </div>
       <div class="input-group">
-        <label for="author">
-          <span>Autor</span>
-          <input
-            type="text"
-            name="author"
-            id="author"
-            formControlName="author"
-            required
-          />
-        </label>
         <label for="title">
-          <span>Título</span>
+          <span>Título do Filme</span>
           <input
             type="text"
             name="title"
@@ -27,12 +17,42 @@
             required
           />
         </label>
-        <label for="description">
+        <label for="releaseYear">
+          <span>Ano Lançamento</span>
+          <input
+            type="text"
+            name="releaseYear"
+            id="releaseYear"
+            formControlName="releaseYear"
+            required
+          />
+        </label>
+        <label for="genre">
+          <span>Gênero</span>
+          <input
+            type="text"
+            name="genre"
+            id="genre"
+            formControlName="genre"
+            required
+          />
+        </label>
+        <label for="imdb">
+          <span>IMDB</span>
+          <input
+            type="text"
+            name="imdb"
+            id="imdb"
+            formControlName="imdb"
+            required
+          />
+        </label>
+        <label for="overview">
           <span>Descrição</span>
           <textarea
-            name="description"
-            id="description"
-            formControlName="description"
+            name="overview"
+            id="overview"
+            formControlName="overview"
             required
             rows="4"
           ></textarea>

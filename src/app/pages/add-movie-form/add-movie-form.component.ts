@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-movie-form',
@@ -9,17 +10,15 @@ import { FormBuilder, Validators } from '@angular/forms';
 export class AddMovieFormComponent {
   url = '/assets/icons/img.svg';
   movieForm = this.fb.group({
-    author: ['', Validators.required, Validators.minLength(4)],
-    title: ['', Validators.required, Validators.minLength(4)],
-    description: ['', Validators.required, Validators.minLength(4)],
+    title: ['', Validators.required],
+    releaseYear: ['', Validators.required],
+    genre: ['', Validators.required],
+    imdb: ['', Validators.required],
+    overview: ['', Validators.required],
     inputFile: ['', Validators.required],
   });
 
-  constructor(private fb: FormBuilder) {}
-
-  get author() {
-    return this.movieForm.get('author');
-  }
+  constructor(private fb: FormBuilder, private router: Router) {}
 
   onSelectFile(e: any) {
     if (e.target.files && e.target.files[0]) {
@@ -31,12 +30,15 @@ export class AddMovieFormComponent {
     }
   }
 
-  onSubmit() {
-    console.log(this.movieForm.value);
+  onSubmit(): void {
+    if (this.movieForm.valid) {
+      console.log(this.movieForm.value);
+    }
   }
 
   onCancel() {
     this.movieForm.reset();
     this.url = '/assets/icons/img.svg';
+    this.router.navigate(['/home']);
   }
 }

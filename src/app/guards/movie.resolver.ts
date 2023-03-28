@@ -1,24 +1,16 @@
 import { MoviesService } from 'src/app/services/movies.service';
 import { Injectable } from '@angular/core';
-import {
-  Router,
-  Resolve,
-  RouterStateSnapshot,
-  ActivatedRouteSnapshot,
-} from '@angular/router';
+import { ActivatedRouteSnapshot } from '@angular/router';
 import { Observable, of } from 'rxjs';
 import { Movie } from './../models/movie.model';
 
 @Injectable({
   providedIn: 'root',
 })
-export class MovieResolver implements Resolve<Movie> {
+export class MovieResolver {
   constructor(private movieService: MoviesService) {}
 
-  resolve(
-    route: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot
-  ): Observable<Movie> {
+  resolve(route: ActivatedRouteSnapshot): Observable<Movie> {
     if (route.params && route.params['id']) {
       return this.movieService.getMovieById(route.params['id']);
     }
