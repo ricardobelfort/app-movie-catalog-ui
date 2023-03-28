@@ -13,63 +13,137 @@
             type="text"
             name="title"
             id="title"
+            placeholder="Título do filme"
             formControlName="title"
             required
           />
+
+          <div
+            *ngIf="title.invalid && (title.dirty || title.touched)"
+            class="alert"
+          >
+            <div *ngIf="title.errors?.['required']">Title is required.</div>
+            <div *ngIf="title.errors?.['minlength']">
+              Title must be at least 4 characters long.
+            </div>
+            <div *ngIf="title.errors?.['forbiddentitle']">
+              Title cannot be Bob.
+            </div>
+          </div>
         </label>
-        <label for="releaseYear">
+
+        <label for="release_date">
           <span>Ano Lançamento</span>
           <input
-            type="text"
-            name="releaseYear"
-            id="releaseYear"
-            formControlName="releaseYear"
+            type="number"
+            name="release_date"
+            id="release_date"
+            placeholder="Ex: 2023"
+            min="4"
+            minlength="4"
+            formControlName="release_date"
             required
           />
+
+          <div
+            *ngIf="
+              release_date.invalid &&
+              (release_date.dirty || release_date.touched)
+            "
+            class="alert"
+          >
+            <div *ngIf="release_date.errors?.['required']">
+              Release date is required.
+            </div>
+            <div *ngIf="release_date.errors?.['minlength']">
+              Release date must be at least 4 characters long.
+            </div>
+          </div>
         </label>
+
         <label for="genre">
           <span>Gênero</span>
           <input
             type="text"
             name="genre"
             id="genre"
+            placeholder="Ex: Ação, Comédia, etc"
             formControlName="genre"
             required
           />
+
+          <div
+            *ngIf="genre.invalid && (genre.dirty || genre.touched)"
+            class="alert"
+          >
+            <div *ngIf="genre.errors?.['required']">Gênero is required.</div>
+            <div *ngIf="genre.errors?.['minlength']">
+              Gênero must be at least 4 characters long.
+            </div>
+          </div>
         </label>
-        <label for="imdb">
+
+        <label for="vote_average">
           <span>IMDB</span>
           <input
             type="number"
-            name="imdb"
-            id="imdb"
+            name="vote_average"
+            id="vote_average"
+            placeholder="Ex: 7"
             max="1"
             maxlength="1"
-            formControlName="imdb"
+            formControlName="vote_average"
             required
           />
+
+          <div
+            *ngIf="
+              vote_average.invalid &&
+              (vote_average.dirty || vote_average.touched)
+            "
+            class="alert"
+          >
+            <div *ngIf="vote_average.errors?.['required']">
+              IMDB is required.
+            </div>
+            <div *ngIf="vote_average.errors?.['minlength']">
+              IMDB must be at least 4 characters long.
+            </div>
+          </div>
         </label>
+
         <label for="overview">
           <span>Descrição</span>
           <textarea
             name="overview"
             id="overview"
+            placeholder="Informe a descrição do filme..."
             formControlName="overview"
             required
             rows="4"
           ></textarea>
+
+          <div
+            *ngIf="overview.invalid && (overview.dirty || overview.touched)"
+            class="alert"
+          >
+            <div *ngIf="overview.errors?.['required']">IMDB is required.</div>
+            <div *ngIf="overview.errors?.['minlength']">
+              IMDB must be at least 4 characters long.
+            </div>
+          </div>
         </label>
 
         <div class="upload-section">
-          <label for="inputFile">
+          <label for="file">
             <!-- <i class="fa-regular fa-image fa-2xl"></i> -->
             <input
               #fileInput
               class="custom-file-input"
-              id="inputFile"
+              id="file"
               type="file"
               accept=".png, .jpg, .jpeg"
-              formControlName="inputFile"
+              formControlName="file"
               (change)="onSelectFile($event)"
               required
             />

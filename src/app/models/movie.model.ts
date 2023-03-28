@@ -1,7 +1,7 @@
 export interface Movie {
   id: number | null | undefined;
-  title: string | null | undefined;
-  genres: Genre[];
+  title?: string | null | undefined;
+  genre: string | null | undefined;
   overview: string | null | undefined;
   popularity: number | null | undefined;
   poster_path: string | null | undefined;
@@ -11,9 +11,5 @@ export interface Movie {
   status: string | null | undefined;
   tagline: string | null | undefined;
   vote_average: number | null | undefined;
-}
-
-interface Genre {
-  id: number | null | undefined;
-  name: string | null | undefined;
+  file: string;
 }

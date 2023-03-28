@@ -6,6 +6,7 @@
   --primaryHover: #d8672a;
   --dark: #072551;
   --secondary: #67aaf9;
+  --danger: #dc3545;
   --darkHover: #24142e;
   --white: #fff;
   --light: #d8d8d8;
@@ -46,4 +47,12 @@ button {
 img,
 a img {
   outline: none;
+}
+
+.alert {
+  width: 100%;
+  margin-top: -1.8rem;
+  margin-bottom: 1rem;
+  font-size: 0.875em;
+  color: var(--danger);
 }

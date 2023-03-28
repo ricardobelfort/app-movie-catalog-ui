@@ -17,7 +17,7 @@ export class MovieResolver {
     return of({
       id: 0,
       title: '',
-      genres: [],
+      genre: '',
       overview: '',
       popularity: 0,
       poster_path: '',
@@ -27,6 +27,7 @@ export class MovieResolver {
       status: '',
       tagline: '',
       vote_average: 0,
+      file: '',
     });
   }
 }
