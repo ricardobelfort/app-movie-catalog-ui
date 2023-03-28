@@ -40,9 +40,11 @@
         <label for="imdb">
           <span>IMDB</span>
           <input
-            type="text"
+            type="number"
             name="imdb"
             id="imdb"
+            max="1"
+            maxlength="1"
             formControlName="imdb"
             required
           />
@@ -57,17 +59,26 @@
             rows="4"
           ></textarea>
         </label>
-        <label for="inputFile">
-          <i class="fa-regular fa-image fa-2xl"></i>
-          <input
-            id="inputFile"
-            class="custom-file-input"
-            type="file"
-            formControlName="inputFile"
-            (change)="onSelectFile($event)"
-            required
-          />
-        </label>
+
+        <div class="upload-section">
+          <label for="inputFile">
+            <!-- <i class="fa-regular fa-image fa-2xl"></i> -->
+            <input
+              #fileInput
+              class="custom-file-input"
+              id="inputFile"
+              type="file"
+              accept=".png, .jpg, .jpeg"
+              formControlName="inputFile"
+              (change)="onSelectFile($event)"
+              required
+            />
+          </label>
+          <button class="btn-secondary" (click)="uploadFile()">
+            <i class="fa-solid fa-upload fa-lg"></i>
+            Upload
+          </button>
+        </div>
 
         <div class="action">
           <button
@@ -75,7 +86,7 @@
             [disabled]="!movieForm.valid"
             class="btn-primary"
           >
-            Postar
+            Salvar Filme
           </button>
           <button class="btn-outlined" (click)="onCancel()">Cancelar</button>
         </div>

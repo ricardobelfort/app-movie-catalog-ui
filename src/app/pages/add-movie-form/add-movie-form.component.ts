@@ -13,7 +13,12 @@ export class AddMovieFormComponent {
     title: ['', Validators.required],
     releaseYear: ['', Validators.required],
     genre: ['', Validators.required],
-    imdb: ['', Validators.required],
+    imdb: [
+      '',
+      Validators.required,
+      Validators.minLength(1),
+      Validators.maxLength(1),
+    ],
     overview: ['', Validators.required],
     inputFile: ['', Validators.required],
   });
@@ -28,6 +33,10 @@ export class AddMovieFormComponent {
         this.url = e.target.result;
       };
     }
+  }
+
+  uploadFile() {
+    console.log('enviou');
   }
 
   onSubmit(): void {
