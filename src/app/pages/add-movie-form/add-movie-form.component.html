@@ -22,12 +22,9 @@
             *ngIf="title.invalid && (title.dirty || title.touched)"
             class="alert"
           >
-            <div *ngIf="title.errors?.['required']">Title is required.</div>
+            <div *ngIf="title.errors?.['required']">Título é obrigatório.</div>
             <div *ngIf="title.errors?.['minlength']">
-              Title must be at least 4 characters long.
-            </div>
-            <div *ngIf="title.errors?.['forbiddentitle']">
-              Title cannot be Bob.
+              Título deve ter pelo menos 4 caracteres.
             </div>
           </div>
         </label>
@@ -53,10 +50,10 @@
             class="alert"
           >
             <div *ngIf="release_date.errors?.['required']">
-              Release date is required.
+              Ano de lançamento é obrigatório.
             </div>
             <div *ngIf="release_date.errors?.['minlength']">
-              Release date must be at least 4 characters long.
+              Ano de lançamento deve ter pelo menos 4 caracteres.
             </div>
           </div>
         </label>
@@ -76,9 +73,9 @@
             *ngIf="genre.invalid && (genre.dirty || genre.touched)"
             class="alert"
           >
-            <div *ngIf="genre.errors?.['required']">Gênero is required.</div>
+            <div *ngIf="genre.errors?.['required']">Gênero é obrigatório.</div>
             <div *ngIf="genre.errors?.['minlength']">
-              Gênero must be at least 4 characters long.
+              Gênero deve ter pelo menos 4 caracteres.
             </div>
           </div>
         </label>
@@ -104,10 +101,10 @@
             class="alert"
           >
             <div *ngIf="vote_average.errors?.['required']">
-              IMDB is required.
+              IMDB é obrigatório.
             </div>
             <div *ngIf="vote_average.errors?.['minlength']">
-              IMDB must be at least 4 characters long.
+              IMDB deve ter pelo menos 1 caracteres.
             </div>
           </div>
         </label>
@@ -127,16 +124,17 @@
             *ngIf="overview.invalid && (overview.dirty || overview.touched)"
             class="alert"
           >
-            <div *ngIf="overview.errors?.['required']">IMDB is required.</div>
+            <div *ngIf="overview.errors?.['required']">
+              Descrição é obrigatória.
+            </div>
             <div *ngIf="overview.errors?.['minlength']">
-              IMDB must be at least 4 characters long.
+              Descrição deve ter pelo menos 4 caracteres.
             </div>
           </div>
         </label>
 
         <div class="upload-section">
           <label for="file">
-            <!-- <i class="fa-regular fa-image fa-2xl"></i> -->
             <input
               #fileInput
               class="custom-file-input"
